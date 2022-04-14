@@ -1,0 +1,28 @@
+{
+  "name": "zoomclone",
+  "version": "1.0.0",
+  "description": "Zoom cloning",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anujjha13/zoomclone.git"
+  },
+  "author": "Anuj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anujjha13/zoomclone/issues"
+  },
+  "homepage": "https://github.com/anujjha13/zoomclone#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "heroku": "^7.60.1",
+    "peer": "^0.6.1",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  }
+}
