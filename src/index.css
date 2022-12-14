@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Bungee Inline', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.navbar{
+  width: 100vw;
+  height: 6vh;
+  display: flex;
+  background-image: linear-gradient(to right,rgb(1, 78, 200),rgb(193, 28, 193));
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+
+}
+.navbar>h2{
+  color: azure;
+  font-size: 3vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+  
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  top: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-div{
+  width: 420px;
+  height: 75vh;
+  background-image: linear-gradient(to right,rgb(57, 255, 255),rgb(109, 109, 255));
+  border-radius: 1.5rem;
+}
+.form-heading{
+    margin-left: 0.6rem;
+    color: aliceblue;
+}
+hr{
+  background-image: linear-gradient(to right,rgb(42, 63, 252),rgb(125, 31, 193));
+  height: 5px;
+  margin-top: -1.5rem;
+}
+
+.form{
+    font-size: 30px;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.form-input{
+  margin-left: 2rem;
+  font-size: 20px;
+  background-color: rgb(255, 240, 240);
+}
+
+
+
+.pay-btn{
+  background-image: linear-gradient(to right ,rgb(91, 91, 250),purple);
+  color: aliceblue;
+  height: 40px;
+  margin-left: 3.5rem;
+  margin-top: 4rem;
+  font-size: 1rem;
+}
